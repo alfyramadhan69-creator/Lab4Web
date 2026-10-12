@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero">
+            <h1>Tentang Saya</h1>
+            <p>Halo! Saya Alfy Ramadhan, mahasiswa Informatika di Universitas Pelita Bangsa. Halaman ini adalah single layout yang berisi deskripsi diri dan portfolio.</p>
+            <a href="kontak.html" class="btn btn-large">Hubungi saya &raquo;</a>
+        </section>
+        <section id="wrapper">
+            <section id="main">
+            <h2 class="page-title">Deskripsi</h2>
+            <article class="entry">
+                <div class="placeholder ph-120 c-navy profile-img">Foto Profil</div>
+                <p>Saya Alfy Ramadhan, mahasiswa semester 3 Teknik Informatika angkatan 2025 di Universitas Pelita Bangsa, Bekasi. Saat ini saya sedang mempelajari pemrograman web, mulai dari HTML, CSS, hingga pembuatan layout website sederhana dengan CSS float dan elemen semantik HTML5.</p>
+                <p style="margin-top:12px">Saya tertarik pada pengembangan web, struktur data, dan jaringan komputer, serta senang mencoba membuat proyek kecil untuk melatih kemampuan.</p>
+            </article>
+            <hr class="divider" />
+            <h2 class="page-title">Portfolio</h2>
+            <div class="row">
+                <div class="box">
+                    <div class="placeholder ph-180 c-blue thumb">Portfolio 1</div>
+                    <h3>Layout Sederhana</h3>
+                    <p>Praktikum 4: layout web dengan header, nav, hero, main, sidebar, dan footer.</p>
+                    <a href="#" class="btn btn-default">View detail</a>
+                </div>
+                <div class="box">
+                    <div class="placeholder ph-180 c-orange thumb">Portfolio 2</div>
+                    <h3>Box Element</h3>
+                    <p>Latihan CSS float dan clearfix menggunakan div berwarna.</p>
+                    <a href="#" class="btn btn-default">View detail</a>
+                </div>
+                <div class="box">
+                    <div class="placeholder ph-180 c-olive thumb">Portfolio 3</div>
+                    <h3>Proyek Berikutnya</h3>
+                    <p>Tempat untuk menambahkan proyek web lainnya.</p>
+                    <a href="#" class="btn btn-default">View detail</a>
+                </div>
+            </div>
+            </section>
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Profil Singkat</h3>
+                <ul>
+                    <li><a href="#">Alfy Ramadhan</a></li>
+                    <li><a href="#">Teknik Informatika</a></li>
+                    <li><a href="#">Semester 3 (Angkatan 2025)</a></li>
+                    <li><a href="#">Universitas Pelita Bangsa</a></li>
+                </ul>
+            </div>
+            <div class="widget-box">
+                <h3 class="title">Keahlian</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3 (Float &amp; Layout)</li>
+                    <li>Git &amp; GitHub</li>
+                </ul>
+            </div>
+        </aside>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>

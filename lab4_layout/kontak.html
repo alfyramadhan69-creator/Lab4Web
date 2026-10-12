@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+        <section id="hero">
+            <h1>Kontak</h1>
+            <p>Punya pertanyaan, saran, atau ingin berdiskusi? Silakan isi form di bawah ini dan pesan Anda akan kami baca.</p>
+        </section>
+        <section id="wrapper">
+            <section id="main">
+            <h2 class="page-title">Form Kontak</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="telepon">No. Telepon</label>
+                    <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx">
+                </div>
+                <div class="form-group">
+                    <label for="subjek">Subjek</label>
+                    <select id="subjek" name="subjek">
+                        <option>Pertanyaan umum</option>
+                        <option>Saran</option>
+                        <option>Kerja sama</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-large">Kirim Pesan</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+            </form>
+            </section>
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Informasi Kontak</h3>
+                <p>Universitas Pelita Bangsa<br>Bekasi, Jawa Barat</p>
+            </div>
+            <div class="widget-box">
+                <h3 class="title">Catatan</h3>
+                <p>Form ini hanya contoh tampilan layout dan belum terhubung ke server.</p>
+            </div>
+        </aside>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
